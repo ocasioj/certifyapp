@@ -3,7 +3,7 @@ import { getAllCertifications, getProviders, getAllLevels } from "@/lib/data";
 import SearchPageContent from "@/components/search/SearchPageContent";
 
 export const metadata: Metadata = {
-  title: "Search Certifications - Certio",
+  title: "Search Certifications - JoCerts",
   description: "Browse and search IT certifications across all providers.",
 };
 

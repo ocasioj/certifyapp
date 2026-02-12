@@ -13,7 +13,7 @@ export default function Footer() {
                 <Award className="w-4 h-4 text-white" />
               </div>
               <span className="text-lg font-bold text-white">
-                Cert<span className="text-blue-400">io</span>
+                Jo<span className="text-blue-400">Certs</span>
               </span>
             </div>
             <p className="text-sm leading-relaxed">
@@ -79,7 +79,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-slate-800 mt-10 pt-6 text-center">
           <p className="text-xs text-slate-500">
-            &copy; {new Date().getFullYear()} Certio. Built for IT professionals.
+            &copy; {new Date().getFullYear()} JoCerts. Built for IT professionals.
           </p>
         </div>
       </div>

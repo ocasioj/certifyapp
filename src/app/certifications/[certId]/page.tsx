@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!cert) return { title: "Certification Not Found" };
   const provider = getProviderById(cert.providerId);
   return {
-    title: `${cert.name} - Certio`,
+    title: `${cert.name} - JoCerts`,
     description: `${cert.description.slice(0, 160)}...`,
     keywords: [
       cert.name,

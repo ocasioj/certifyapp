@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Certio - IT Certification Guide",
+  title: "JoCerts - IT Certification Guide",
   description:
     "Your comprehensive guide to IT certifications. Compare exams, explore training resources, and plan your certification journey across AWS, Azure, GCP, CompTIA, Cisco, and more.",
 };

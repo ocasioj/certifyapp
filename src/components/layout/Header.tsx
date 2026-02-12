@@ -12,7 +12,7 @@ export default function Header() {
               <Award className="w-5 h-5 text-white" />
             </div>
             <span className="text-xl font-bold text-slate-900">
-              Cert<span className="text-blue-600">io</span>
+              Jo<span className="text-blue-600">Certs</span>
             </span>
           </Link>
 

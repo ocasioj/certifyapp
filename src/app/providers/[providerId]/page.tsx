@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const provider = getProviderById(providerId);
   if (!provider) return { title: "Provider Not Found" };
   return {
-    title: `${provider.name} Certifications - Certio`,
+    title: `${provider.name} Certifications - JoCerts`,
     description: provider.description,
   };
 }
