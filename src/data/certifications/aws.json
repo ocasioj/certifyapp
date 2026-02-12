@@ -1,0 +1,380 @@
+[
+  {
+    "id": "aws-cloud-practitioner",
+    "providerId": "aws",
+    "name": "AWS Certified Cloud Practitioner",
+    "shortName": "Cloud Practitioner",
+    "slug": "cloud-practitioner",
+    "level": "Foundational",
+    "description": "The AWS Certified Cloud Practitioner validates foundational, high-level understanding of AWS Cloud, services, and terminology. This certification is a good starting point for individuals in non-technical roles with no prior IT or cloud experience, or for those with on-premises IT experience looking for foundational AWS Cloud fluency.",
+    "badges": [
+      "Cloud Fundamentals",
+      "AWS Core Services",
+      "Entry Level"
+    ],
+    "exam": {
+      "code": "CLF-C02",
+      "numberOfQuestions": 65,
+      "questionTypes": [
+        "Multiple choice",
+        "Multiple response"
+      ],
+      "duration": 90,
+      "passingScore": 700,
+      "maxScore": 1000,
+      "cost": 100,
+      "currency": "USD",
+      "deliveryMethod": "Testing center or online proctored",
+      "languages": [
+        "English",
+        "Japanese",
+        "Korean",
+        "Simplified Chinese",
+        "Traditional Chinese",
+        "Bahasa Indonesian",
+        "Spanish",
+        "French",
+        "German",
+        "Italian",
+        "Portuguese"
+      ],
+      "retakePolicy": "14-day waiting period between attempts",
+      "validityPeriod": "3 years"
+    },
+    "prerequisites": [],
+    "recommendedTraining": [
+      {
+        "name": "AWS Cloud Practitioner Essentials",
+        "provider": "AWS Skill Builder",
+        "type": "Self-paced",
+        "url": "https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials",
+        "duration": "6 hours",
+        "free": true
+      },
+      {
+        "name": "AWS Certified Cloud Practitioner Official Practice Question Set",
+        "provider": "AWS Skill Builder",
+        "type": "Practice exam",
+        "url": "https://explore.skillbuilder.aws/learn/course/external/view/elearning/14050/aws-certified-cloud-practitioner-official-practice-question-set",
+        "duration": "2 hours",
+        "free": true
+      },
+      {
+        "name": "Ultimate AWS Certified Cloud Practitioner CLF-C02",
+        "provider": "Udemy",
+        "type": "Video course",
+        "url": "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/",
+        "duration": "14 hours",
+        "free": false
+      },
+      {
+        "name": "AWS Cloud Quest: Cloud Practitioner",
+        "provider": "AWS Skill Builder",
+        "type": "Hands-on lab",
+        "url": "https://explore.skillbuilder.aws/learn/course/external/view/elearning/11458/aws-cloud-quest-cloud-practitioner",
+        "duration": "12 hours",
+        "free": true
+      }
+    ],
+    "examDomains": [
+      {
+        "name": "Cloud Concepts",
+        "percentage": 24
+      },
+      {
+        "name": "Security and Compliance",
+        "percentage": 30
+      },
+      {
+        "name": "Cloud Technology and Services",
+        "percentage": 34
+      },
+      {
+        "name": "Billing, Pricing, and Support",
+        "percentage": 12
+      }
+    ],
+    "jobRoles": [
+      {
+        "title": "Cloud Support Associate",
+        "averageSalary": "$55,000 - $75,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "Junior Cloud Engineer",
+        "averageSalary": "$65,000 - $90,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "IT Project Coordinator",
+        "averageSalary": "$50,000 - $70,000",
+        "demandLevel": "Medium"
+      },
+      {
+        "title": "Technical Sales Representative",
+        "averageSalary": "$60,000 - $85,000",
+        "demandLevel": "Moderate"
+      }
+    ],
+    "relatedCertifications": [
+      "aws-solutions-architect-associate",
+      "aws-developer-associate"
+    ],
+    "lastUpdated": "2024-09-15"
+  },
+  {
+    "id": "aws-solutions-architect-associate",
+    "providerId": "aws",
+    "name": "AWS Certified Solutions Architect - Associate",
+    "shortName": "Solutions Architect Associate",
+    "slug": "solutions-architect-associate",
+    "level": "Associate",
+    "description": "The AWS Certified Solutions Architect - Associate validates the ability to design and implement distributed systems on AWS. This certification demonstrates expertise in designing architectures that are secure, resilient, high-performing, and cost-optimized, making it one of the most sought-after cloud certifications in the industry.",
+    "badges": [
+      "Architecture Design",
+      "AWS Solutions",
+      "Cloud Infrastructure",
+      "Most Popular"
+    ],
+    "exam": {
+      "code": "SAA-C03",
+      "numberOfQuestions": 65,
+      "questionTypes": [
+        "Multiple choice",
+        "Multiple response"
+      ],
+      "duration": 130,
+      "passingScore": 720,
+      "maxScore": 1000,
+      "cost": 150,
+      "currency": "USD",
+      "deliveryMethod": "Testing center or online proctored",
+      "languages": [
+        "English",
+        "Japanese",
+        "Korean",
+        "Simplified Chinese",
+        "Traditional Chinese",
+        "Bahasa Indonesian",
+        "Spanish",
+        "French",
+        "German",
+        "Italian",
+        "Portuguese"
+      ],
+      "retakePolicy": "14-day waiting period between attempts",
+      "validityPeriod": "3 years"
+    },
+    "prerequisites": [
+      "Recommended: 1 year of hands-on experience with AWS",
+      "Recommended: AWS Certified Cloud Practitioner"
+    ],
+    "recommendedTraining": [
+      {
+        "name": "Architecting on AWS",
+        "provider": "AWS Training",
+        "type": "Instructor-led",
+        "url": "https://aws.amazon.com/training/classroom/architecting-on-aws/",
+        "duration": "3 days",
+        "free": false
+      },
+      {
+        "name": "AWS Certified Solutions Architect - Associate Official Practice Question Set",
+        "provider": "AWS Skill Builder",
+        "type": "Practice exam",
+        "url": "https://explore.skillbuilder.aws/learn/course/external/view/elearning/13266/aws-certified-solutions-architect-associate-official-practice-question-set",
+        "duration": "3 hours",
+        "free": true
+      },
+      {
+        "name": "Ultimate AWS Certified Solutions Architect Associate SAA-C03",
+        "provider": "Udemy",
+        "type": "Video course",
+        "url": "https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/",
+        "duration": "27 hours",
+        "free": false
+      },
+      {
+        "name": "AWS Cloud Quest: Solutions Architect",
+        "provider": "AWS Skill Builder",
+        "type": "Hands-on lab",
+        "url": "https://explore.skillbuilder.aws/learn/course/external/view/elearning/15580/aws-cloud-quest-solutions-architect",
+        "duration": "20 hours",
+        "free": false
+      }
+    ],
+    "examDomains": [
+      {
+        "name": "Secure Architectures",
+        "percentage": 30
+      },
+      {
+        "name": "Resilient Architectures",
+        "percentage": 26
+      },
+      {
+        "name": "High-Performing Architectures",
+        "percentage": 24
+      },
+      {
+        "name": "Cost-Optimized Architectures",
+        "percentage": 20
+      }
+    ],
+    "jobRoles": [
+      {
+        "title": "Cloud Solutions Architect",
+        "averageSalary": "$120,000 - $160,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "AWS Cloud Engineer",
+        "averageSalary": "$100,000 - $140,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "Cloud Infrastructure Engineer",
+        "averageSalary": "$95,000 - $135,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "Cloud Consultant",
+        "averageSalary": "$110,000 - $150,000",
+        "demandLevel": "Moderate"
+      }
+    ],
+    "relatedCertifications": [
+      "aws-cloud-practitioner",
+      "aws-developer-associate"
+    ],
+    "lastUpdated": "2024-10-01"
+  },
+  {
+    "id": "aws-developer-associate",
+    "providerId": "aws",
+    "name": "AWS Certified Developer - Associate",
+    "shortName": "Developer Associate",
+    "slug": "developer-associate",
+    "level": "Associate",
+    "description": "The AWS Certified Developer - Associate validates technical expertise in developing, deploying, and debugging cloud-based applications using AWS. This certification demonstrates proficiency in core AWS services, best practices for architecture, and the ability to write applications that use AWS APIs, SDKs, CLI, and infrastructure as code.",
+    "badges": [
+      "Application Development",
+      "AWS SDKs & APIs",
+      "CI/CD Pipelines",
+      "Serverless"
+    ],
+    "exam": {
+      "code": "DVA-C02",
+      "numberOfQuestions": 65,
+      "questionTypes": [
+        "Multiple choice",
+        "Multiple response"
+      ],
+      "duration": 130,
+      "passingScore": 720,
+      "maxScore": 1000,
+      "cost": 150,
+      "currency": "USD",
+      "deliveryMethod": "Testing center or online proctored",
+      "languages": [
+        "English",
+        "Japanese",
+        "Korean",
+        "Simplified Chinese",
+        "Traditional Chinese",
+        "Bahasa Indonesian",
+        "Spanish",
+        "French",
+        "German",
+        "Italian",
+        "Portuguese"
+      ],
+      "retakePolicy": "14-day waiting period between attempts",
+      "validityPeriod": "3 years"
+    },
+    "prerequisites": [
+      "Recommended: 1 year of hands-on experience developing and maintaining AWS-based applications",
+      "Recommended: In-depth knowledge of at least one high-level programming language",
+      "Recommended: AWS Certified Cloud Practitioner"
+    ],
+    "recommendedTraining": [
+      {
+        "name": "Developing on AWS",
+        "provider": "AWS Training",
+        "type": "Instructor-led",
+        "url": "https://aws.amazon.com/training/classroom/developing-on-aws/",
+        "duration": "3 days",
+        "free": false
+      },
+      {
+        "name": "AWS Certified Developer - Associate Official Practice Question Set",
+        "provider": "AWS Skill Builder",
+        "type": "Practice exam",
+        "url": "https://explore.skillbuilder.aws/learn/course/external/view/elearning/14060/aws-certified-developer-associate-official-practice-question-set",
+        "duration": "3 hours",
+        "free": true
+      },
+      {
+        "name": "Ultimate AWS Certified Developer Associate DVA-C02",
+        "provider": "Udemy",
+        "type": "Video course",
+        "url": "https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/",
+        "duration": "32 hours",
+        "free": false
+      },
+      {
+        "name": "AWS Serverless - Getting Started",
+        "provider": "AWS Skill Builder",
+        "type": "Self-paced",
+        "url": "https://explore.skillbuilder.aws/learn/course/external/view/elearning/37/aws-serverless-getting-started",
+        "duration": "1.5 hours",
+        "free": true
+      }
+    ],
+    "examDomains": [
+      {
+        "name": "Development with AWS Services",
+        "percentage": 32
+      },
+      {
+        "name": "Security",
+        "percentage": 26
+      },
+      {
+        "name": "Deployment",
+        "percentage": 24
+      },
+      {
+        "name": "Troubleshooting and Optimization",
+        "percentage": 18
+      }
+    ],
+    "jobRoles": [
+      {
+        "title": "Cloud Application Developer",
+        "averageSalary": "$100,000 - $145,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "AWS Backend Developer",
+        "averageSalary": "$95,000 - $135,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "DevOps Engineer",
+        "averageSalary": "$110,000 - $150,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "Serverless Application Developer",
+        "averageSalary": "$105,000 - $140,000",
+        "demandLevel": "Moderate"
+      }
+    ],
+    "relatedCertifications": [
+      "aws-cloud-practitioner",
+      "aws-solutions-architect-associate"
+    ],
+    "lastUpdated": "2024-10-15"
+  }
+]

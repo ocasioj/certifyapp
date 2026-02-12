@@ -1,0 +1,383 @@
+[
+  {
+    "id": "cisco-ccna",
+    "providerId": "cisco",
+    "name": "Cisco Certified Network Associate",
+    "shortName": "CCNA",
+    "slug": "ccna",
+    "level": "Associate",
+    "description": "The CCNA certification validates your ability to install, configure, operate, and troubleshoot medium-sized routed and switched networks. It covers a broad range of fundamentals including network access, IP connectivity, IP services, security fundamentals, and automation and programmability.",
+    "badges": [
+      "Entry-Level Networking",
+      "Industry Standard",
+      "Career Starter"
+    ],
+    "exam": {
+      "code": "200-301",
+      "numberOfQuestions": 100,
+      "questionTypes": [
+        "Multiple choice",
+        "Multiple response",
+        "Drag and drop",
+        "Testlet",
+        "Simlet"
+      ],
+      "duration": 120,
+      "passingScore": 825,
+      "maxScore": 1000,
+      "cost": 330,
+      "currency": "USD",
+      "deliveryMethod": "Pearson VUE",
+      "languages": [
+        "English",
+        "Japanese",
+        "Spanish",
+        "Portuguese"
+      ],
+      "retakePolicy": "Candidates must wait a minimum of 5 calendar days from the initial attempt before retaking the exam.",
+      "validityPeriod": "3 years"
+    },
+    "prerequisites": [],
+    "recommendedTraining": [
+      {
+        "name": "Implementing and Administering Cisco Solutions (CCNA)",
+        "provider": "Cisco U.",
+        "type": "Self-paced",
+        "url": "https://u.cisco.com/paths/ccna",
+        "duration": "70 hours",
+        "free": false
+      },
+      {
+        "name": "CCNA Certification Training",
+        "provider": "CBT Nuggets",
+        "type": "Video course",
+        "url": "https://www.cbtnuggets.com/certification-playlist/cisco/ccna",
+        "duration": "50 hours",
+        "free": false
+      },
+      {
+        "name": "CCNA Study Group and Resources",
+        "provider": "Cisco Learning Network",
+        "type": "Self-paced",
+        "url": "https://learningnetwork.cisco.com/s/ccna",
+        "duration": "Self-paced",
+        "free": true
+      },
+      {
+        "name": "CCNA Practice Exam",
+        "provider": "Pearson",
+        "type": "Practice exam",
+        "url": "https://www.pearsonvue.com/cisco",
+        "duration": "2 hours",
+        "free": false
+      }
+    ],
+    "examDomains": [
+      {
+        "name": "Network Fundamentals",
+        "percentage": 20
+      },
+      {
+        "name": "Network Access",
+        "percentage": 20
+      },
+      {
+        "name": "IP Connectivity",
+        "percentage": 25
+      },
+      {
+        "name": "IP Services",
+        "percentage": 10
+      },
+      {
+        "name": "Security Fundamentals",
+        "percentage": 15
+      },
+      {
+        "name": "Automation and Programmability",
+        "percentage": 10
+      }
+    ],
+    "jobRoles": [
+      {
+        "title": "Network Administrator",
+        "averageSalary": "$55,000 - $75,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "Network Engineer",
+        "averageSalary": "$65,000 - $90,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "Systems Administrator",
+        "averageSalary": "$55,000 - $80,000",
+        "demandLevel": "Medium"
+      },
+      {
+        "title": "Help Desk Technician",
+        "averageSalary": "$40,000 - $55,000",
+        "demandLevel": "High"
+      }
+    ],
+    "relatedCertifications": [
+      "cisco-ccnp-enterprise",
+      "cisco-ccnp-security"
+    ],
+    "lastUpdated": "2025-12-01"
+  },
+  {
+    "id": "cisco-ccnp-enterprise",
+    "providerId": "cisco",
+    "name": "Cisco Certified Network Professional Enterprise Core",
+    "shortName": "CCNP Enterprise Core - ENCOR",
+    "slug": "ccnp-enterprise",
+    "level": "Professional",
+    "description": "The CCNP Enterprise certification validates advanced knowledge of enterprise networking solutions. The ENCOR core exam covers dual-stack architecture, virtualization, infrastructure, network assurance, security, and automation, preparing professionals to manage complex enterprise networks.",
+    "badges": [
+      "Advanced Networking",
+      "Enterprise Infrastructure",
+      "Professional Level"
+    ],
+    "exam": {
+      "code": "350-401",
+      "numberOfQuestions": 100,
+      "questionTypes": [
+        "Multiple choice",
+        "Multiple response",
+        "Drag and drop",
+        "Testlet",
+        "Simlet"
+      ],
+      "duration": 120,
+      "passingScore": 825,
+      "maxScore": 1000,
+      "cost": 400,
+      "currency": "USD",
+      "deliveryMethod": "Pearson VUE",
+      "languages": [
+        "English",
+        "Japanese"
+      ],
+      "retakePolicy": "Candidates must wait a minimum of 5 calendar days from the initial attempt before retaking the exam.",
+      "validityPeriod": "3 years"
+    },
+    "prerequisites": [
+      "CCNA or equivalent networking knowledge recommended"
+    ],
+    "recommendedTraining": [
+      {
+        "name": "Implementing and Operating Cisco Enterprise Network Core Technologies (ENCOR)",
+        "provider": "Cisco U.",
+        "type": "Instructor-led",
+        "url": "https://u.cisco.com/paths/ccnp-enterprise",
+        "duration": "40 hours",
+        "free": false
+      },
+      {
+        "name": "CCNP Enterprise Core Training",
+        "provider": "CBT Nuggets",
+        "type": "Video course",
+        "url": "https://www.cbtnuggets.com/certification-playlist/cisco/ccnp-enterprise",
+        "duration": "45 hours",
+        "free": false
+      },
+      {
+        "name": "CCNP Enterprise Study Group and Resources",
+        "provider": "Cisco Learning Network",
+        "type": "Self-paced",
+        "url": "https://learningnetwork.cisco.com/s/ccnp-enterprise",
+        "duration": "Self-paced",
+        "free": true
+      },
+      {
+        "name": "Cisco Enterprise Network Core Labs",
+        "provider": "Cisco",
+        "type": "Hands-on lab",
+        "url": "https://u.cisco.com/labs/enterprise",
+        "duration": "20 hours",
+        "free": false
+      }
+    ],
+    "examDomains": [
+      {
+        "name": "Architecture",
+        "percentage": 15
+      },
+      {
+        "name": "Virtualization",
+        "percentage": 10
+      },
+      {
+        "name": "Infrastructure",
+        "percentage": 30
+      },
+      {
+        "name": "Network Assurance",
+        "percentage": 10
+      },
+      {
+        "name": "Security",
+        "percentage": 20
+      },
+      {
+        "name": "Automation",
+        "percentage": 15
+      }
+    ],
+    "jobRoles": [
+      {
+        "title": "Senior Network Engineer",
+        "averageSalary": "$90,000 - $130,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "Network Architect",
+        "averageSalary": "$110,000 - $150,000",
+        "demandLevel": "Medium"
+      },
+      {
+        "title": "Infrastructure Engineer",
+        "averageSalary": "$85,000 - $120,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "Enterprise Network Consultant",
+        "averageSalary": "$100,000 - $140,000",
+        "demandLevel": "Moderate"
+      }
+    ],
+    "relatedCertifications": [
+      "cisco-ccna",
+      "cisco-ccnp-security"
+    ],
+    "lastUpdated": "2025-12-01"
+  },
+  {
+    "id": "cisco-ccnp-security",
+    "providerId": "cisco",
+    "name": "Cisco Certified Network Professional Security Core",
+    "shortName": "CCNP Security Core - SCOR",
+    "slug": "ccnp-security",
+    "level": "Professional",
+    "description": "The CCNP Security certification validates advanced skills in network security solutions. The SCOR core exam covers network security, cloud security, content security, endpoint protection and detection, secure network access, visibility, and enforcement, preparing professionals to secure enterprise environments.",
+    "badges": [
+      "Advanced Security",
+      "Enterprise Security",
+      "Professional Level"
+    ],
+    "exam": {
+      "code": "350-701",
+      "numberOfQuestions": 100,
+      "questionTypes": [
+        "Multiple choice",
+        "Multiple response",
+        "Drag and drop",
+        "Testlet",
+        "Simlet"
+      ],
+      "duration": 120,
+      "passingScore": 825,
+      "maxScore": 1000,
+      "cost": 400,
+      "currency": "USD",
+      "deliveryMethod": "Pearson VUE",
+      "languages": [
+        "English",
+        "Japanese"
+      ],
+      "retakePolicy": "Candidates must wait a minimum of 5 calendar days from the initial attempt before retaking the exam.",
+      "validityPeriod": "3 years"
+    },
+    "prerequisites": [
+      "CCNA or equivalent networking and security knowledge recommended"
+    ],
+    "recommendedTraining": [
+      {
+        "name": "Implementing and Operating Cisco Security Core Technologies (SCOR)",
+        "provider": "Cisco U.",
+        "type": "Instructor-led",
+        "url": "https://u.cisco.com/paths/ccnp-security",
+        "duration": "40 hours",
+        "free": false
+      },
+      {
+        "name": "CCNP Security Core Training",
+        "provider": "CBT Nuggets",
+        "type": "Video course",
+        "url": "https://www.cbtnuggets.com/certification-playlist/cisco/ccnp-security",
+        "duration": "40 hours",
+        "free": false
+      },
+      {
+        "name": "CCNP Security Study Group and Resources",
+        "provider": "Cisco Learning Network",
+        "type": "Self-paced",
+        "url": "https://learningnetwork.cisco.com/s/ccnp-security",
+        "duration": "Self-paced",
+        "free": true
+      },
+      {
+        "name": "Cisco Security Core Technologies Labs",
+        "provider": "Cisco",
+        "type": "Hands-on lab",
+        "url": "https://u.cisco.com/labs/security",
+        "duration": "20 hours",
+        "free": false
+      }
+    ],
+    "examDomains": [
+      {
+        "name": "Security Concepts",
+        "percentage": 25
+      },
+      {
+        "name": "Network Security",
+        "percentage": 20
+      },
+      {
+        "name": "Securing the Cloud",
+        "percentage": 15
+      },
+      {
+        "name": "Content Security",
+        "percentage": 15
+      },
+      {
+        "name": "Endpoint Protection and Detection",
+        "percentage": 10
+      },
+      {
+        "name": "Secure Network Access, Visibility, and Enforcement",
+        "percentage": 15
+      }
+    ],
+    "jobRoles": [
+      {
+        "title": "Network Security Engineer",
+        "averageSalary": "$95,000 - $135,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "Security Architect",
+        "averageSalary": "$120,000 - $160,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "Cybersecurity Analyst",
+        "averageSalary": "$80,000 - $110,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "Security Operations Engineer",
+        "averageSalary": "$90,000 - $125,000",
+        "demandLevel": "Moderate"
+      }
+    ],
+    "relatedCertifications": [
+      "cisco-ccna",
+      "cisco-ccnp-enterprise"
+    ],
+    "lastUpdated": "2025-12-01"
+  }
+]

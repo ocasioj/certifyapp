@@ -1,0 +1,363 @@
+[
+  {
+    "id": "vmware-vcta-dcv",
+    "providerId": "vmware",
+    "name": "VMware Certified Technical Associate - Data Center Virtualization",
+    "shortName": "VCTA-DCV",
+    "slug": "vcta-dcv",
+    "level": "Associate",
+    "description": "The VMware Certified Technical Associate - Data Center Virtualization (VCTA-DCV) certification validates foundational knowledge of vSphere environments and data center virtualization concepts. This entry-level certification is designed for IT professionals beginning their career in virtualization, covering core topics such as virtual machines, storage, networking, and resource management within VMware infrastructure.",
+    "badges": [
+      "Data Center Virtualization",
+      "vSphere Fundamentals",
+      "Entry Level"
+    ],
+    "exam": {
+      "code": "1V0-21.20",
+      "numberOfQuestions": 70,
+      "questionTypes": [
+        "Multiple choice",
+        "Multiple response"
+      ],
+      "duration": 120,
+      "passingScore": 300,
+      "maxScore": 500,
+      "cost": 125,
+      "currency": "USD",
+      "deliveryMethod": "Pearson VUE",
+      "languages": [
+        "English",
+        "Japanese",
+        "Simplified Chinese"
+      ],
+      "retakePolicy": "14-day waiting period between attempts",
+      "validityPeriod": "2 years"
+    },
+    "prerequisites": [],
+    "recommendedTraining": [
+      {
+        "name": "VMware vSphere: Install, Configure, Manage",
+        "provider": "VMware Learning",
+        "type": "Instructor-led",
+        "url": "https://mylearn.vmware.com/mgrReg/courses.cfm?ui=www_edu&a=one&id_subject=93058",
+        "duration": "40 hours",
+        "free": false
+      },
+      {
+        "name": "VMware Data Center Virtualization Fundamentals",
+        "provider": "VMware Learning",
+        "type": "Self-paced",
+        "url": "https://mylearn.vmware.com/mgrReg/courses.cfm?ui=www_edu&a=one&id_subject=95498",
+        "duration": "12 hours",
+        "free": true
+      },
+      {
+        "name": "VMware vSphere Foundations",
+        "provider": "Pluralsight",
+        "type": "Video course",
+        "url": "https://www.pluralsight.com/paths/vmware-vsphere-foundations",
+        "duration": "15 hours",
+        "free": false
+      },
+      {
+        "name": "VMware Hands-on Labs - vSphere",
+        "provider": "VMware",
+        "type": "Hands-on lab",
+        "url": "https://labs.hol.vmware.com/",
+        "duration": "8 hours",
+        "free": true
+      }
+    ],
+    "examDomains": [
+      {
+        "name": "Architecture and Technologies",
+        "percentage": 25
+      },
+      {
+        "name": "VMware Products and Solutions",
+        "percentage": 25
+      },
+      {
+        "name": "Planning and Designing",
+        "percentage": 20
+      },
+      {
+        "name": "Installing, Configuring, and Setup",
+        "percentage": 15
+      },
+      {
+        "name": "Performance Tuning, Optimization, and Upgrades",
+        "percentage": 15
+      }
+    ],
+    "jobRoles": [
+      {
+        "title": "Junior Virtualization Administrator",
+        "averageSalary": "$55,000 - $75,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "IT Support Specialist",
+        "averageSalary": "$45,000 - $65,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "Data Center Technician",
+        "averageSalary": "$50,000 - $70,000",
+        "demandLevel": "Medium"
+      }
+    ],
+    "relatedCertifications": [
+      "vmware-vcp-dcv",
+      "vmware-vcp-nv"
+    ],
+    "lastUpdated": "2025-12-15"
+  },
+  {
+    "id": "vmware-vcp-dcv",
+    "providerId": "vmware",
+    "name": "VMware Certified Professional - Data Center Virtualization",
+    "shortName": "VCP-DCV",
+    "slug": "vcp-dcv",
+    "level": "Professional",
+    "description": "The VMware Certified Professional - Data Center Virtualization (VCP-DCV) certification validates advanced skills in deploying, managing, and optimizing VMware vSphere infrastructure. This professional-level certification demonstrates expertise in configuring and administering vSphere environments, including virtual networking, storage, security, and resource management at scale in enterprise data centers.",
+    "badges": [
+      "Data Center Virtualization",
+      "vSphere Administration",
+      "Professional Level"
+    ],
+    "exam": {
+      "code": "2V0-21.23",
+      "numberOfQuestions": 70,
+      "questionTypes": [
+        "Multiple choice",
+        "Multiple response",
+        "Drag and drop"
+      ],
+      "duration": 130,
+      "passingScore": 300,
+      "maxScore": 500,
+      "cost": 250,
+      "currency": "USD",
+      "deliveryMethod": "Pearson VUE",
+      "languages": [
+        "English",
+        "Japanese",
+        "Simplified Chinese",
+        "Spanish"
+      ],
+      "retakePolicy": "14-day waiting period between attempts",
+      "validityPeriod": "2 years"
+    },
+    "prerequisites": [
+      "VMware Certified Technical Associate - Data Center Virtualization (VCTA-DCV) or equivalent experience",
+      "Completion of one VMware vSphere instructor-led training course"
+    ],
+    "recommendedTraining": [
+      {
+        "name": "VMware vSphere: Install, Configure, Manage [V8]",
+        "provider": "VMware Learning",
+        "type": "Instructor-led",
+        "url": "https://mylearn.vmware.com/mgrReg/courses.cfm?ui=www_edu&a=one&id_subject=93058",
+        "duration": "40 hours",
+        "free": false
+      },
+      {
+        "name": "VMware vSphere: Optimize and Scale [V8]",
+        "provider": "VMware Learning",
+        "type": "Instructor-led",
+        "url": "https://mylearn.vmware.com/mgrReg/courses.cfm?ui=www_edu&a=one&id_subject=93072",
+        "duration": "40 hours",
+        "free": false
+      },
+      {
+        "name": "VCP-DCV 2023 Practice Exam",
+        "provider": "VMware Learning",
+        "type": "Practice exam",
+        "url": "https://mylearn.vmware.com/mgrReg/courses.cfm?ui=www_edu&a=one&id_subject=97234",
+        "duration": "3 hours",
+        "free": false
+      },
+      {
+        "name": "VMware Hands-on Labs - vSphere Advanced",
+        "provider": "VMware",
+        "type": "Hands-on lab",
+        "url": "https://labs.hol.vmware.com/",
+        "duration": "16 hours",
+        "free": true
+      }
+    ],
+    "examDomains": [
+      {
+        "name": "Architecture and Technologies",
+        "percentage": 20
+      },
+      {
+        "name": "VMware Products and Solutions",
+        "percentage": 20
+      },
+      {
+        "name": "Planning and Designing",
+        "percentage": 15
+      },
+      {
+        "name": "Installing, Configuring, and Setup",
+        "percentage": 25
+      },
+      {
+        "name": "Performance Tuning, Optimization, and Upgrades",
+        "percentage": 20
+      }
+    ],
+    "jobRoles": [
+      {
+        "title": "Virtualization Engineer",
+        "averageSalary": "$90,000 - $120,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "VMware Administrator",
+        "averageSalary": "$85,000 - $115,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "Senior Systems Administrator",
+        "averageSalary": "$95,000 - $130,000",
+        "demandLevel": "Medium"
+      },
+      {
+        "title": "Data Center Engineer",
+        "averageSalary": "$100,000 - $135,000",
+        "demandLevel": "Medium"
+      }
+    ],
+    "relatedCertifications": [
+      "vmware-vcta-dcv",
+      "vmware-vcp-nv"
+    ],
+    "lastUpdated": "2025-12-15"
+  },
+  {
+    "id": "vmware-vcp-nv",
+    "providerId": "vmware",
+    "name": "VMware Certified Professional - Network Virtualization",
+    "shortName": "VCP-NV",
+    "slug": "vcp-nv",
+    "level": "Professional",
+    "description": "The VMware Certified Professional - Network Virtualization (VCP-NV) certification validates expertise in deploying, administering, and troubleshooting VMware NSX environments. This professional-level certification demonstrates the ability to implement software-defined networking solutions, configure micro-segmentation, manage logical switching and routing, and integrate NSX with VMware vSphere for secure and scalable network virtualization.",
+    "badges": [
+      "Network Virtualization",
+      "NSX Administration",
+      "Professional Level"
+    ],
+    "exam": {
+      "code": "2V0-41.24",
+      "numberOfQuestions": 70,
+      "questionTypes": [
+        "Multiple choice",
+        "Multiple response",
+        "Drag and drop"
+      ],
+      "duration": 130,
+      "passingScore": 300,
+      "maxScore": 500,
+      "cost": 250,
+      "currency": "USD",
+      "deliveryMethod": "Pearson VUE",
+      "languages": [
+        "English",
+        "Japanese",
+        "Simplified Chinese"
+      ],
+      "retakePolicy": "14-day waiting period between attempts",
+      "validityPeriod": "2 years"
+    },
+    "prerequisites": [
+      "VMware Certified Technical Associate (VCTA) in any track or equivalent experience",
+      "Completion of one VMware NSX instructor-led training course"
+    ],
+    "recommendedTraining": [
+      {
+        "name": "VMware NSX: Install, Configure, Manage [V4]",
+        "provider": "VMware Learning",
+        "type": "Instructor-led",
+        "url": "https://mylearn.vmware.com/mgrReg/courses.cfm?ui=www_edu&a=one&id_subject=93200",
+        "duration": "40 hours",
+        "free": false
+      },
+      {
+        "name": "VMware NSX Fundamentals",
+        "provider": "VMware Learning",
+        "type": "Self-paced",
+        "url": "https://mylearn.vmware.com/mgrReg/courses.cfm?ui=www_edu&a=one&id_subject=95612",
+        "duration": "10 hours",
+        "free": true
+      },
+      {
+        "name": "VMware NSX for vSphere - Network Virtualization",
+        "provider": "Pluralsight",
+        "type": "Video course",
+        "url": "https://www.pluralsight.com/courses/vmware-nsx-vsphere-network-virtualization",
+        "duration": "12 hours",
+        "free": false
+      },
+      {
+        "name": "VMware Hands-on Labs - NSX",
+        "provider": "VMware",
+        "type": "Hands-on lab",
+        "url": "https://labs.hol.vmware.com/",
+        "duration": "12 hours",
+        "free": true
+      }
+    ],
+    "examDomains": [
+      {
+        "name": "Architecture and Technologies",
+        "percentage": 20
+      },
+      {
+        "name": "NSX Installation and Configuration",
+        "percentage": 25
+      },
+      {
+        "name": "NSX Logical Switching and Routing",
+        "percentage": 25
+      },
+      {
+        "name": "NSX Security and Services",
+        "percentage": 20
+      },
+      {
+        "name": "Troubleshooting and Operations",
+        "percentage": 10
+      }
+    ],
+    "jobRoles": [
+      {
+        "title": "Network Virtualization Engineer",
+        "averageSalary": "$100,000 - $135,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "NSX Administrator",
+        "averageSalary": "$95,000 - $125,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "Senior Network Engineer",
+        "averageSalary": "$105,000 - $140,000",
+        "demandLevel": "Medium"
+      },
+      {
+        "title": "Cloud Network Architect",
+        "averageSalary": "$120,000 - $160,000",
+        "demandLevel": "Moderate"
+      }
+    ],
+    "relatedCertifications": [
+      "vmware-vcta-dcv",
+      "vmware-vcp-dcv"
+    ],
+    "lastUpdated": "2025-12-15"
+  }
+]

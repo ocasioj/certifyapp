@@ -1,0 +1,246 @@
+[
+  {
+    "id": "kubernetes-cka",
+    "providerId": "kubernetes",
+    "name": "Certified Kubernetes Administrator",
+    "shortName": "CKA",
+    "slug": "cka",
+    "level": "Professional",
+    "description": "The Certified Kubernetes Administrator (CKA) program provides assurance that CKA holders have the skills, knowledge, and competency to perform the responsibilities of Kubernetes administrators. This performance-based exam tests candidates on their ability to install, configure, and manage production-grade Kubernetes clusters, covering core concepts such as networking, storage, security, and cluster maintenance.",
+    "badges": [
+      "Kubernetes Administration",
+      "Cluster Management",
+      "Container Orchestration",
+      "CNCF Certified"
+    ],
+    "exam": {
+      "code": "CKA",
+      "numberOfQuestions": 17,
+      "questionTypes": [
+        "Performance-based tasks"
+      ],
+      "duration": 120,
+      "passingScore": 66,
+      "maxScore": 100,
+      "cost": 395,
+      "currency": "USD",
+      "deliveryMethod": "PSI Online",
+      "languages": [
+        "English",
+        "Japanese",
+        "Simplified Chinese"
+      ],
+      "retakePolicy": "1 free retake included",
+      "validityPeriod": "3 years"
+    },
+    "prerequisites": [
+      "Recommended: Familiarity with Linux system administration",
+      "Recommended: Understanding of containerization concepts (Docker)",
+      "Recommended: Basic networking knowledge (DNS, TCP/IP, firewalls)"
+    ],
+    "recommendedTraining": [
+      {
+        "name": "Kubernetes Fundamentals (LFS258)",
+        "provider": "The Linux Foundation",
+        "type": "Self-paced",
+        "url": "https://training.linuxfoundation.org/training/kubernetes-fundamentals/",
+        "duration": "35 hours",
+        "free": false
+      },
+      {
+        "name": "Certified Kubernetes Administrator (CKA) with Practice Tests",
+        "provider": "KodeKloud",
+        "type": "Video course",
+        "url": "https://kodekloud.com/courses/certified-kubernetes-administrator-cka/",
+        "duration": "40 hours",
+        "free": false
+      },
+      {
+        "name": "CKA Exam Simulator",
+        "provider": "Killer.sh",
+        "type": "Practice exam",
+        "url": "https://killer.sh/cka",
+        "duration": "4 hours",
+        "free": false
+      },
+      {
+        "name": "Kubernetes the Hard Way",
+        "provider": "GitHub (Kelsey Hightower)",
+        "type": "Hands-on lab",
+        "url": "https://github.com/kelseyhightower/kubernetes-the-hard-way",
+        "duration": "8 hours",
+        "free": true
+      }
+    ],
+    "examDomains": [
+      {
+        "name": "Cluster Architecture, Installation & Configuration",
+        "percentage": 25
+      },
+      {
+        "name": "Workloads & Scheduling",
+        "percentage": 15
+      },
+      {
+        "name": "Services & Networking",
+        "percentage": 20
+      },
+      {
+        "name": "Storage",
+        "percentage": 10
+      },
+      {
+        "name": "Troubleshooting",
+        "percentage": 30
+      }
+    ],
+    "jobRoles": [
+      {
+        "title": "Kubernetes Administrator",
+        "averageSalary": "$110,000 - $150,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "DevOps Engineer",
+        "averageSalary": "$115,000 - $155,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "Site Reliability Engineer",
+        "averageSalary": "$130,000 - $175,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "Platform Engineer",
+        "averageSalary": "$120,000 - $165,000",
+        "demandLevel": "Moderate"
+      }
+    ],
+    "relatedCertifications": [
+      "kubernetes-ckad"
+    ],
+    "lastUpdated": "2025-01-15"
+  },
+  {
+    "id": "kubernetes-ckad",
+    "providerId": "kubernetes",
+    "name": "Certified Kubernetes Application Developer",
+    "shortName": "CKAD",
+    "slug": "ckad",
+    "level": "Professional",
+    "description": "The Certified Kubernetes Application Developer (CKAD) certification validates that candidates can design, build, configure, and expose cloud-native applications for Kubernetes. This performance-based exam focuses on the skills required to define application resources, use core primitives to create and manage robust, scalable applications in a Kubernetes environment.",
+    "badges": [
+      "Application Development",
+      "Cloud Native",
+      "Container Orchestration",
+      "CNCF Certified"
+    ],
+    "exam": {
+      "code": "CKAD",
+      "numberOfQuestions": 16,
+      "questionTypes": [
+        "Performance-based tasks"
+      ],
+      "duration": 120,
+      "passingScore": 66,
+      "maxScore": 100,
+      "cost": 395,
+      "currency": "USD",
+      "deliveryMethod": "PSI Online",
+      "languages": [
+        "English",
+        "Japanese",
+        "Simplified Chinese"
+      ],
+      "retakePolicy": "1 free retake included",
+      "validityPeriod": "3 years"
+    },
+    "prerequisites": [
+      "Recommended: Familiarity with container runtimes (Docker or containerd)",
+      "Recommended: Knowledge of YAML and basic Kubernetes concepts",
+      "Recommended: Experience with at least one programming language"
+    ],
+    "recommendedTraining": [
+      {
+        "name": "Kubernetes for Developers (LFD259)",
+        "provider": "The Linux Foundation",
+        "type": "Self-paced",
+        "url": "https://training.linuxfoundation.org/training/kubernetes-for-developers/",
+        "duration": "30 hours",
+        "free": false
+      },
+      {
+        "name": "Certified Kubernetes Application Developer (CKAD) with Practice Tests",
+        "provider": "KodeKloud",
+        "type": "Video course",
+        "url": "https://kodekloud.com/courses/certified-kubernetes-application-developer-ckad/",
+        "duration": "35 hours",
+        "free": false
+      },
+      {
+        "name": "CKAD Exam Simulator",
+        "provider": "Killer.sh",
+        "type": "Practice exam",
+        "url": "https://killer.sh/ckad",
+        "duration": "4 hours",
+        "free": false
+      },
+      {
+        "name": "CKAD Exercises",
+        "provider": "GitHub (dgkanatsios)",
+        "type": "Hands-on lab",
+        "url": "https://github.com/dgkanatsios/CKAD-exercises",
+        "duration": "10 hours",
+        "free": true
+      }
+    ],
+    "examDomains": [
+      {
+        "name": "Application Design and Build",
+        "percentage": 20
+      },
+      {
+        "name": "Application Deployment",
+        "percentage": 20
+      },
+      {
+        "name": "Application Observability and Maintenance",
+        "percentage": 15
+      },
+      {
+        "name": "Application Environment, Configuration and Security",
+        "percentage": 25
+      },
+      {
+        "name": "Services and Networking",
+        "percentage": 20
+      }
+    ],
+    "jobRoles": [
+      {
+        "title": "Kubernetes Application Developer",
+        "averageSalary": "$105,000 - $145,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "Cloud Native Developer",
+        "averageSalary": "$110,000 - $150,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "Backend Engineer",
+        "averageSalary": "$100,000 - $140,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "DevOps Engineer",
+        "averageSalary": "$115,000 - $155,000",
+        "demandLevel": "Moderate"
+      }
+    ],
+    "relatedCertifications": [
+      "kubernetes-cka"
+    ],
+    "lastUpdated": "2025-01-15"
+  }
+]

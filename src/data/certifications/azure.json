@@ -1,0 +1,404 @@
+[
+  {
+    "id": "azure-fundamentals",
+    "providerId": "azure",
+    "name": "Microsoft Certified: Azure Fundamentals",
+    "shortName": "Azure Fundamentals",
+    "slug": "fundamentals",
+    "level": "Fundamentals",
+    "description": "Validates foundational knowledge of cloud concepts, core Azure services, Azure management and governance, and Azure pricing and support. Ideal for beginners exploring cloud computing and those seeking to demonstrate a broad understanding of the Azure platform.",
+    "badges": [
+      "Cloud Concepts",
+      "Azure Services",
+      "Entry-Level",
+      "Cloud Governance"
+    ],
+    "exam": {
+      "code": "AZ-900",
+      "numberOfQuestions": 45,
+      "questionTypes": [
+        "Multiple choice",
+        "Multiple select",
+        "Drag and drop",
+        "Case study",
+        "Yes/No scenarios"
+      ],
+      "duration": 45,
+      "passingScore": 700,
+      "maxScore": 1000,
+      "cost": 99,
+      "currency": "USD",
+      "deliveryMethod": "Online proctored or testing center",
+      "languages": [
+        "English",
+        "Japanese",
+        "Chinese (Simplified)",
+        "Korean",
+        "Spanish",
+        "German",
+        "French",
+        "Indonesian",
+        "Arabic",
+        "Portuguese (Brazil)",
+        "Italian"
+      ],
+      "retakePolicy": "If you fail, you must wait 24 hours before retaking. No limit on retakes.",
+      "validityPeriod": "Lifetime (no renewal required)"
+    },
+    "prerequisites": [
+      "No prerequisites required",
+      "Basic understanding of IT concepts is helpful but not mandatory"
+    ],
+    "recommendedTraining": [
+      {
+        "name": "Microsoft Azure Fundamentals: Describe cloud concepts",
+        "provider": "Microsoft Learn",
+        "type": "Self-paced",
+        "url": "https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/",
+        "duration": "2 hours",
+        "free": true
+      },
+      {
+        "name": "Azure Fundamentals (AZ-900) Learning Path",
+        "provider": "Microsoft Learn",
+        "type": "Self-paced",
+        "url": "https://learn.microsoft.com/en-us/certifications/azure-fundamentals/",
+        "duration": "10 hours",
+        "free": true
+      },
+      {
+        "name": "AZ-900 Microsoft Azure Fundamentals",
+        "provider": "Pluralsight",
+        "type": "Video course",
+        "url": "https://www.pluralsight.com/paths/az-900-microsoft-azure-fundamentals",
+        "duration": "12 hours",
+        "free": false
+      },
+      {
+        "name": "AZ-900 Practice Exam",
+        "provider": "MeasureUp",
+        "type": "Practice exam",
+        "url": "https://www.measureup.com/az-900-microsoft-azure-fundamentals.html",
+        "duration": "Self-paced",
+        "free": false
+      }
+    ],
+    "examDomains": [
+      {
+        "name": "Describe cloud concepts",
+        "percentage": 25
+      },
+      {
+        "name": "Describe Azure architecture and services",
+        "percentage": 35
+      },
+      {
+        "name": "Describe Azure management and governance",
+        "percentage": 30
+      },
+      {
+        "name": "Describe Azure pricing, SLAs, and lifecycle",
+        "percentage": 10
+      }
+    ],
+    "jobRoles": [
+      {
+        "title": "Cloud Support Associate",
+        "averageSalary": "$55,000 - $75,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "Junior Cloud Engineer",
+        "averageSalary": "$65,000 - $85,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "IT Support Specialist",
+        "averageSalary": "$50,000 - $70,000",
+        "demandLevel": "Medium"
+      }
+    ],
+    "relatedCertifications": [
+      "azure-administrator-associate",
+      "azure-solutions-architect-expert"
+    ],
+    "lastUpdated": "2025-01-15"
+  },
+  {
+    "id": "azure-administrator-associate",
+    "providerId": "azure",
+    "name": "Microsoft Certified: Azure Administrator Associate",
+    "shortName": "Azure Administrator Associate",
+    "slug": "administrator-associate",
+    "level": "Associate",
+    "description": "Validates the skills needed to implement, manage, and monitor an organization's Azure environment, including virtual networks, storage, compute, identity, security, and governance. This certification is intended for Azure administrators who manage cloud infrastructure and services.",
+    "badges": [
+      "Azure Administration",
+      "Identity & Governance",
+      "Virtual Networking",
+      "Compute & Storage",
+      "Monitoring"
+    ],
+    "exam": {
+      "code": "AZ-104",
+      "numberOfQuestions": 50,
+      "questionTypes": [
+        "Multiple choice",
+        "Multiple select",
+        "Drag and drop",
+        "Case study",
+        "Active screen",
+        "Build list"
+      ],
+      "duration": 100,
+      "passingScore": 700,
+      "maxScore": 1000,
+      "cost": 165,
+      "currency": "USD",
+      "deliveryMethod": "Online proctored or testing center",
+      "languages": [
+        "English",
+        "Japanese",
+        "Chinese (Simplified)",
+        "Korean",
+        "Spanish",
+        "German",
+        "French",
+        "Indonesian",
+        "Arabic",
+        "Portuguese (Brazil)",
+        "Italian"
+      ],
+      "retakePolicy": "If you fail, you must wait 24 hours before retaking. After a second failure, wait 14 days. No limit on total retakes.",
+      "validityPeriod": "1 year (annual renewal required via free online assessment)"
+    },
+    "prerequisites": [
+      "At least 6 months of hands-on experience administering Azure",
+      "Strong understanding of core Azure services, workloads, security, and governance",
+      "Experience using PowerShell, Azure CLI, Azure portal, and ARM templates",
+      "AZ-900 Azure Fundamentals recommended but not required"
+    ],
+    "recommendedTraining": [
+      {
+        "name": "AZ-104: Prerequisites for Azure administrators",
+        "provider": "Microsoft Learn",
+        "type": "Self-paced",
+        "url": "https://learn.microsoft.com/en-us/training/paths/az-104-administrator-prerequisites/",
+        "duration": "6 hours",
+        "free": true
+      },
+      {
+        "name": "AZ-104: Manage identities and governance in Azure",
+        "provider": "Microsoft Learn",
+        "type": "Self-paced",
+        "url": "https://learn.microsoft.com/en-us/training/paths/az-104-manage-identities-governance/",
+        "duration": "8 hours",
+        "free": true
+      },
+      {
+        "name": "AZ-104 Microsoft Azure Administrator",
+        "provider": "Pluralsight",
+        "type": "Video course",
+        "url": "https://www.pluralsight.com/paths/az-104-microsoft-azure-administrator",
+        "duration": "40 hours",
+        "free": false
+      },
+      {
+        "name": "Azure Administrator Hands-on Labs",
+        "provider": "Microsoft Learn",
+        "type": "Hands-on lab",
+        "url": "https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/",
+        "duration": "20 hours",
+        "free": true
+      }
+    ],
+    "examDomains": [
+      {
+        "name": "Manage Azure identities and governance",
+        "percentage": 20
+      },
+      {
+        "name": "Implement and manage storage",
+        "percentage": 15
+      },
+      {
+        "name": "Deploy and manage Azure compute resources",
+        "percentage": 20
+      },
+      {
+        "name": "Implement and manage virtual networking",
+        "percentage": 25
+      },
+      {
+        "name": "Monitor and maintain Azure resources",
+        "percentage": 20
+      }
+    ],
+    "jobRoles": [
+      {
+        "title": "Azure Administrator",
+        "averageSalary": "$90,000 - $120,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "Cloud Infrastructure Engineer",
+        "averageSalary": "$100,000 - $135,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "Systems Administrator (Cloud)",
+        "averageSalary": "$85,000 - $115,000",
+        "demandLevel": "Medium"
+      },
+      {
+        "title": "DevOps Engineer",
+        "averageSalary": "$110,000 - $145,000",
+        "demandLevel": "High"
+      }
+    ],
+    "relatedCertifications": [
+      "azure-fundamentals",
+      "azure-solutions-architect-expert"
+    ],
+    "lastUpdated": "2025-01-15"
+  },
+  {
+    "id": "azure-solutions-architect-expert",
+    "providerId": "azure",
+    "name": "Microsoft Certified: Azure Solutions Architect Expert",
+    "shortName": "Azure Solutions Architect Expert",
+    "slug": "solutions-architect-expert",
+    "level": "Expert",
+    "description": "Validates advanced expertise in designing cloud and hybrid solutions that run on Microsoft Azure, including compute, network, storage, monitoring, and security. Candidates should have experience and knowledge across IT operations, including networking, virtualization, identity, security, business continuity, disaster recovery, data platforms, and governance.",
+    "badges": [
+      "Solution Architecture",
+      "Infrastructure Design",
+      "Security & Compliance",
+      "Business Continuity",
+      "Expert Level"
+    ],
+    "exam": {
+      "code": "AZ-305",
+      "numberOfQuestions": 50,
+      "questionTypes": [
+        "Multiple choice",
+        "Multiple select",
+        "Drag and drop",
+        "Case study",
+        "Active screen",
+        "Build list",
+        "Solution design scenarios"
+      ],
+      "duration": 100,
+      "passingScore": 700,
+      "maxScore": 1000,
+      "cost": 165,
+      "currency": "USD",
+      "deliveryMethod": "Online proctored or testing center",
+      "languages": [
+        "English",
+        "Japanese",
+        "Chinese (Simplified)",
+        "Korean",
+        "Spanish",
+        "German",
+        "French",
+        "Indonesian",
+        "Arabic",
+        "Portuguese (Brazil)",
+        "Italian"
+      ],
+      "retakePolicy": "If you fail, you must wait 24 hours before retaking. After a second failure, wait 14 days. No limit on total retakes.",
+      "validityPeriod": "1 year (annual renewal required via free online assessment)"
+    },
+    "prerequisites": [
+      "Advanced experience and knowledge across IT operations including networking, virtualization, identity, security, business continuity, disaster recovery, data platforms, and governance",
+      "Experience administering Azure (AZ-104 level knowledge strongly recommended)",
+      "Experience with Azure development and DevOps processes",
+      "Must hold Azure Administrator Associate (AZ-104) or equivalent experience"
+    ],
+    "recommendedTraining": [
+      {
+        "name": "AZ-305: Design identity, governance, and monitoring solutions",
+        "provider": "Microsoft Learn",
+        "type": "Self-paced",
+        "url": "https://learn.microsoft.com/en-us/training/paths/design-identity-governance-monitor-solutions/",
+        "duration": "8 hours",
+        "free": true
+      },
+      {
+        "name": "AZ-305: Design business continuity solutions",
+        "provider": "Microsoft Learn",
+        "type": "Self-paced",
+        "url": "https://learn.microsoft.com/en-us/training/paths/design-business-continuity-solutions/",
+        "duration": "6 hours",
+        "free": true
+      },
+      {
+        "name": "AZ-305 Designing Microsoft Azure Infrastructure Solutions",
+        "provider": "Pluralsight",
+        "type": "Video course",
+        "url": "https://www.pluralsight.com/paths/az-305-designing-microsoft-azure-infrastructure-solutions",
+        "duration": "35 hours",
+        "free": false
+      },
+      {
+        "name": "AZ-305 Practice Exam",
+        "provider": "MeasureUp",
+        "type": "Practice exam",
+        "url": "https://www.measureup.com/az-305-designing-microsoft-azure-infrastructure-solutions.html",
+        "duration": "Self-paced",
+        "free": false
+      }
+    ],
+    "examDomains": [
+      {
+        "name": "Design identity, governance, and monitoring solutions",
+        "percentage": 25
+      },
+      {
+        "name": "Design data storage solutions",
+        "percentage": 20
+      },
+      {
+        "name": "Design business continuity solutions",
+        "percentage": 15
+      },
+      {
+        "name": "Design infrastructure solutions",
+        "percentage": 25
+      },
+      {
+        "name": "Design network solutions",
+        "percentage": 15
+      }
+    ],
+    "jobRoles": [
+      {
+        "title": "Azure Solutions Architect",
+        "averageSalary": "$130,000 - $170,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "Cloud Architect",
+        "averageSalary": "$140,000 - $180,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "Senior Cloud Engineer",
+        "averageSalary": "$125,000 - $160,000",
+        "demandLevel": "High"
+      },
+      {
+        "title": "Enterprise Architect",
+        "averageSalary": "$150,000 - $200,000",
+        "demandLevel": "Moderate"
+      }
+    ],
+    "relatedCertifications": [
+      "azure-fundamentals",
+      "azure-administrator-associate"
+    ],
+    "lastUpdated": "2025-01-15"
+  }
+]

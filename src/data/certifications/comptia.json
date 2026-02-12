@@ -1,0 +1,224 @@
+[
+  {
+    "id": "comptia-a-plus",
+    "providerId": "comptia",
+    "name": "CompTIA A+",
+    "shortName": "A+",
+    "slug": "a-plus",
+    "level": "Foundational",
+    "description": "CompTIA A+ is the industry standard for establishing a career in IT. It validates understanding of the most common hardware and software technologies in endpoints and demonstrates the ability to connect users to the data they need to do their jobs regardless of the devices being used. A+ certified professionals can perform critical IT support tasks including device configuration, data backup and recovery, and operating system configuration.",
+    "badges": ["Entry-Level", "Hardware", "Software Troubleshooting", "Networking Basics", "Operating Systems"],
+    "exam": {
+      "code": "220-1101 & 220-1102",
+      "numberOfQuestions": 90,
+      "questionTypes": ["Multiple choice", "Performance-based"],
+      "duration": 90,
+      "passingScore": 675,
+      "maxScore": 900,
+      "cost": 358,
+      "currency": "USD",
+      "deliveryMethod": "Pearson VUE",
+      "languages": ["English", "Japanese", "German", "Portuguese", "Spanish"],
+      "retakePolicy": "No waiting period for the first retake. A minimum 14-day waiting period is required for any subsequent retakes.",
+      "validityPeriod": "3 years"
+    },
+    "prerequisites": [],
+    "recommendedTraining": [
+      {
+        "name": "CompTIA CertMaster Learn for A+",
+        "provider": "CompTIA",
+        "type": "Self-paced",
+        "url": "https://www.comptia.org/training/certmaster-learn/a",
+        "duration": "40 hours",
+        "free": false
+      },
+      {
+        "name": "Professor Messer's CompTIA A+ Course",
+        "provider": "Professor Messer",
+        "type": "Video course",
+        "url": "https://www.professormesser.com/free-a-plus-training/220-1101/220-1101-video/220-1101-training-course/",
+        "duration": "30 hours",
+        "free": true
+      },
+      {
+        "name": "CompTIA CertMaster Labs for A+",
+        "provider": "CompTIA",
+        "type": "Hands-on lab",
+        "url": "https://www.comptia.org/training/certmaster-labs/a",
+        "duration": "20 hours",
+        "free": false
+      },
+      {
+        "name": "CompTIA CertMaster Practice for A+",
+        "provider": "CompTIA",
+        "type": "Practice exam",
+        "url": "https://www.comptia.org/training/certmaster-practice/a",
+        "duration": "Flexible",
+        "free": false
+      }
+    ],
+    "examDomains": [
+      { "name": "Mobile Devices, Laptops, and Hardware", "percentage": 25 },
+      { "name": "Networking", "percentage": 20 },
+      { "name": "Hardware and Network Troubleshooting", "percentage": 25 },
+      { "name": "Operating Systems and Software", "percentage": 15 },
+      { "name": "Security and Operational Procedures", "percentage": 15 }
+    ],
+    "jobRoles": [
+      { "title": "Help Desk Technician", "averageSalary": "$45,000 - $55,000", "demandLevel": "High" },
+      { "title": "Desktop Support Specialist", "averageSalary": "$50,000 - $62,000", "demandLevel": "High" },
+      { "title": "Field Service Technician", "averageSalary": "$42,000 - $58,000", "demandLevel": "Medium" },
+      { "title": "IT Support Specialist", "averageSalary": "$48,000 - $60,000", "demandLevel": "High" }
+    ],
+    "relatedCertifications": ["comptia-network-plus", "comptia-security-plus"],
+    "lastUpdated": "2026-02-10"
+  },
+  {
+    "id": "comptia-network-plus",
+    "providerId": "comptia",
+    "name": "CompTIA Network+",
+    "shortName": "Network+",
+    "slug": "network-plus",
+    "level": "Intermediate",
+    "description": "CompTIA Network+ validates the essential knowledge and skills needed to confidently design, configure, manage, and troubleshoot any wired and wireless network. Network+ certified professionals possess the ability to implement network security standards, manage network infrastructure, and troubleshoot network issues across enterprise environments.",
+    "badges": ["Networking", "Infrastructure", "Troubleshooting", "Security", "Cloud Networking"],
+    "exam": {
+      "code": "N10-009",
+      "numberOfQuestions": 90,
+      "questionTypes": ["Multiple choice", "Performance-based"],
+      "duration": 90,
+      "passingScore": 720,
+      "maxScore": 900,
+      "cost": 369,
+      "currency": "USD",
+      "deliveryMethod": "Pearson VUE",
+      "languages": ["English", "Japanese", "German", "Portuguese", "Spanish"],
+      "retakePolicy": "No waiting period for the first retake. A minimum 14-day waiting period is required for any subsequent retakes.",
+      "validityPeriod": "3 years"
+    },
+    "prerequisites": ["CompTIA A+ certification recommended but not required", "9-12 months of networking experience recommended"],
+    "recommendedTraining": [
+      {
+        "name": "CompTIA CertMaster Learn for Network+",
+        "provider": "CompTIA",
+        "type": "Self-paced",
+        "url": "https://www.comptia.org/training/certmaster-learn/network",
+        "duration": "40 hours",
+        "free": false
+      },
+      {
+        "name": "Professor Messer's CompTIA Network+ Course",
+        "provider": "Professor Messer",
+        "type": "Video course",
+        "url": "https://www.professormesser.com/network-plus/n10-009/n10-009-training-course/",
+        "duration": "25 hours",
+        "free": true
+      },
+      {
+        "name": "CompTIA CertMaster Labs for Network+",
+        "provider": "CompTIA",
+        "type": "Hands-on lab",
+        "url": "https://www.comptia.org/training/certmaster-labs/network",
+        "duration": "20 hours",
+        "free": false
+      },
+      {
+        "name": "CompTIA CertMaster Practice for Network+",
+        "provider": "CompTIA",
+        "type": "Practice exam",
+        "url": "https://www.comptia.org/training/certmaster-practice/network",
+        "duration": "Flexible",
+        "free": false
+      }
+    ],
+    "examDomains": [
+      { "name": "Networking Fundamentals", "percentage": 24 },
+      { "name": "Network Implementations", "percentage": 19 },
+      { "name": "Network Operations", "percentage": 16 },
+      { "name": "Network Security", "percentage": 19 },
+      { "name": "Network Troubleshooting", "percentage": 22 }
+    ],
+    "jobRoles": [
+      { "title": "Network Administrator", "averageSalary": "$62,000 - $80,000", "demandLevel": "High" },
+      { "title": "Network Field Technician", "averageSalary": "$55,000 - $70,000", "demandLevel": "Medium" },
+      { "title": "Junior Network Engineer", "averageSalary": "$58,000 - $75,000", "demandLevel": "High" },
+      { "title": "Systems Administrator", "averageSalary": "$65,000 - $85,000", "demandLevel": "High" }
+    ],
+    "relatedCertifications": ["comptia-a-plus", "comptia-security-plus"],
+    "lastUpdated": "2026-02-10"
+  },
+  {
+    "id": "comptia-security-plus",
+    "providerId": "comptia",
+    "name": "CompTIA Security+",
+    "shortName": "Security+",
+    "slug": "security-plus",
+    "level": "Intermediate",
+    "description": "CompTIA Security+ is a globally recognized certification that validates baseline cybersecurity skills necessary to perform core security functions. It is the first security certification IT professionals should earn and establishes the core knowledge required of any cybersecurity role. Security+ covers best practices in hands-on troubleshooting, risk management, threat analysis, and security operations.",
+    "badges": ["Cybersecurity", "Threat Management", "Risk Assessment", "Compliance", "DoD 8570 Approved"],
+    "exam": {
+      "code": "SY0-701",
+      "numberOfQuestions": 90,
+      "questionTypes": ["Multiple choice", "Performance-based"],
+      "duration": 90,
+      "passingScore": 750,
+      "maxScore": 900,
+      "cost": 404,
+      "currency": "USD",
+      "deliveryMethod": "Pearson VUE",
+      "languages": ["English", "Japanese", "Portuguese", "Spanish"],
+      "retakePolicy": "No waiting period for the first retake. A minimum 14-day waiting period is required for any subsequent retakes.",
+      "validityPeriod": "3 years"
+    },
+    "prerequisites": ["CompTIA Network+ certification recommended but not required", "Minimum of two years of experience in IT administration with a security focus recommended"],
+    "recommendedTraining": [
+      {
+        "name": "CompTIA CertMaster Learn for Security+",
+        "provider": "CompTIA",
+        "type": "Self-paced",
+        "url": "https://www.comptia.org/training/certmaster-learn/security",
+        "duration": "40 hours",
+        "free": false
+      },
+      {
+        "name": "Professor Messer's CompTIA Security+ Course",
+        "provider": "Professor Messer",
+        "type": "Video course",
+        "url": "https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/",
+        "duration": "25 hours",
+        "free": true
+      },
+      {
+        "name": "CompTIA CertMaster Labs for Security+",
+        "provider": "CompTIA",
+        "type": "Hands-on lab",
+        "url": "https://www.comptia.org/training/certmaster-labs/security",
+        "duration": "20 hours",
+        "free": false
+      },
+      {
+        "name": "CompTIA CertMaster Practice for Security+",
+        "provider": "CompTIA",
+        "type": "Practice exam",
+        "url": "https://www.comptia.org/training/certmaster-practice/security",
+        "duration": "Flexible",
+        "free": false
+      }
+    ],
+    "examDomains": [
+      { "name": "General Security Concepts", "percentage": 12 },
+      { "name": "Threats, Vulnerabilities, and Mitigations", "percentage": 22 },
+      { "name": "Security Architecture", "percentage": 18 },
+      { "name": "Security Operations", "percentage": 28 },
+      { "name": "Security Program Management and Oversight", "percentage": 20 }
+    ],
+    "jobRoles": [
+      { "title": "Security Administrator", "averageSalary": "$72,000 - $95,000", "demandLevel": "High" },
+      { "title": "Security Analyst", "averageSalary": "$75,000 - $100,000", "demandLevel": "High" },
+      { "title": "Junior Penetration Tester", "averageSalary": "$68,000 - $90,000", "demandLevel": "Medium" },
+      { "title": "Security Consultant", "averageSalary": "$80,000 - $110,000", "demandLevel": "High" }
+    ],
+    "relatedCertifications": ["comptia-a-plus", "comptia-network-plus"],
+    "lastUpdated": "2026-02-10"
+  }
+]

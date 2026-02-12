@@ -1,0 +1,242 @@
+[
+  {
+    "id": "gcp-cloud-digital-leader",
+    "providerId": "gcp",
+    "name": "Google Cloud Digital Leader",
+    "shortName": "Cloud Digital Leader",
+    "slug": "cloud-digital-leader",
+    "level": "Foundational",
+    "description": "Validates foundational knowledge of cloud concepts and Google Cloud products, services, tools, features, benefits, and use cases. Designed for individuals who want to demonstrate their understanding of how Google Cloud can transform businesses.",
+    "badges": [
+      "https://cloud.google.com/static/images/certification/badges/cloud-digital-leader.png"
+    ],
+    "exam": {
+      "code": "Cloud-Digital-Leader",
+      "numberOfQuestions": 60,
+      "questionTypes": ["Multiple choice", "Multiple select"],
+      "duration": 120,
+      "passingScore": 70,
+      "maxScore": 100,
+      "cost": 99,
+      "currency": "USD",
+      "deliveryMethod": "Kryterion",
+      "languages": ["English", "Japanese", "Spanish", "Portuguese", "French", "German", "Indonesian", "Korean"],
+      "retakePolicy": "14 days after first attempt, 60 days after second attempt, 365 days after third attempt",
+      "validityPeriod": "3 years"
+    },
+    "prerequisites": [
+      "No formal prerequisites required",
+      "Basic understanding of cloud computing concepts recommended",
+      "Familiarity with general business technology concepts"
+    ],
+    "recommendedTraining": [
+      {
+        "name": "Cloud Digital Leader Learning Path",
+        "provider": "Google Cloud Skills Boost",
+        "type": "Self-paced",
+        "url": "https://www.cloudskillsboost.google/paths/9",
+        "duration": "20 hours",
+        "free": false
+      },
+      {
+        "name": "Google Cloud Digital Leader Training",
+        "provider": "Coursera",
+        "type": "Video course",
+        "url": "https://www.coursera.org/professional-certificates/google-cloud-digital-leader-training",
+        "duration": "24 hours",
+        "free": false
+      },
+      {
+        "name": "Introduction to Digital Transformation with Google Cloud",
+        "provider": "Google Cloud Skills Boost",
+        "type": "Self-paced",
+        "url": "https://www.cloudskillsboost.google/course_templates/266",
+        "duration": "4 hours",
+        "free": true
+      },
+      {
+        "name": "Cloud Digital Leader Sample Questions",
+        "provider": "Google Cloud",
+        "type": "Practice exam",
+        "url": "https://cloud.google.com/learn/certification/cloud-digital-leader",
+        "duration": "1 hour",
+        "free": true
+      }
+    ],
+    "examDomains": [
+      { "name": "Digital Transformation with Google Cloud", "percentage": 25 },
+      { "name": "Innovating with Data and Google Cloud", "percentage": 25 },
+      { "name": "Infrastructure and Application Modernization", "percentage": 25 },
+      { "name": "Google Cloud Security and Operations", "percentage": 25 }
+    ],
+    "jobRoles": [
+      { "title": "Cloud Business Analyst", "averageSalary": "$85,000 - $115,000", "demandLevel": "High" },
+      { "title": "Cloud Project Manager", "averageSalary": "$95,000 - $130,000", "demandLevel": "High" },
+      { "title": "Cloud Sales Engineer", "averageSalary": "$90,000 - $140,000", "demandLevel": "Medium" },
+      { "title": "IT Manager", "averageSalary": "$100,000 - $145,000", "demandLevel": "Moderate" }
+    ],
+    "relatedCertifications": ["gcp-associate-cloud-engineer", "gcp-professional-cloud-architect"],
+    "lastUpdated": "2025-12-15"
+  },
+  {
+    "id": "gcp-associate-cloud-engineer",
+    "providerId": "gcp",
+    "name": "Google Cloud Associate Cloud Engineer",
+    "shortName": "Associate Cloud Engineer",
+    "slug": "associate-cloud-engineer",
+    "level": "Associate",
+    "description": "Validates the ability to deploy and secure applications and infrastructure, monitor operations, and manage enterprise solutions on Google Cloud. Demonstrates competence in setting up cloud environments and performing common platform-based tasks.",
+    "badges": [
+      "https://cloud.google.com/static/images/certification/badges/associate-cloud-engineer.png"
+    ],
+    "exam": {
+      "code": "Associate-Cloud-Engineer",
+      "numberOfQuestions": 50,
+      "questionTypes": ["Multiple choice", "Multiple select"],
+      "duration": 120,
+      "passingScore": 70,
+      "maxScore": 100,
+      "cost": 200,
+      "currency": "USD",
+      "deliveryMethod": "Kryterion",
+      "languages": ["English", "Japanese", "Spanish", "Portuguese", "French", "German", "Indonesian", "Korean"],
+      "retakePolicy": "14 days after first attempt, 60 days after second attempt, 365 days after third attempt",
+      "validityPeriod": "3 years"
+    },
+    "prerequisites": [
+      "6+ months hands-on experience with Google Cloud recommended",
+      "Understanding of cloud computing fundamentals",
+      "Familiarity with command-line tools and Linux operating systems"
+    ],
+    "recommendedTraining": [
+      {
+        "name": "Associate Cloud Engineer Learning Path",
+        "provider": "Google Cloud Skills Boost",
+        "type": "Self-paced",
+        "url": "https://www.cloudskillsboost.google/paths/11",
+        "duration": "40 hours",
+        "free": false
+      },
+      {
+        "name": "Preparing for Your Associate Cloud Engineer Journey",
+        "provider": "Coursera",
+        "type": "Video course",
+        "url": "https://www.coursera.org/professional-certificates/cloud-engineering-gcp",
+        "duration": "48 hours",
+        "free": false
+      },
+      {
+        "name": "Google Cloud Essentials Quest",
+        "provider": "Google Cloud Skills Boost",
+        "type": "Hands-on lab",
+        "url": "https://www.cloudskillsboost.google/course_templates/625",
+        "duration": "6 hours",
+        "free": false
+      },
+      {
+        "name": "Associate Cloud Engineer Practice Exam",
+        "provider": "Google Cloud",
+        "type": "Practice exam",
+        "url": "https://cloud.google.com/learn/certification/cloud-engineer",
+        "duration": "2 hours",
+        "free": true
+      }
+    ],
+    "examDomains": [
+      { "name": "Setting Up a Cloud Solution Environment", "percentage": 20 },
+      { "name": "Planning and Configuring a Cloud Solution", "percentage": 20 },
+      { "name": "Deploying and Implementing a Cloud Solution", "percentage": 25 },
+      { "name": "Ensuring Successful Operation of a Cloud Solution", "percentage": 20 },
+      { "name": "Configuring Access and Security", "percentage": 15 }
+    ],
+    "jobRoles": [
+      { "title": "Cloud Engineer", "averageSalary": "$110,000 - $155,000", "demandLevel": "High" },
+      { "title": "DevOps Engineer", "averageSalary": "$120,000 - $165,000", "demandLevel": "High" },
+      { "title": "Systems Administrator", "averageSalary": "$85,000 - $125,000", "demandLevel": "Moderate" },
+      { "title": "Site Reliability Engineer", "averageSalary": "$130,000 - $180,000", "demandLevel": "High" }
+    ],
+    "relatedCertifications": ["gcp-cloud-digital-leader", "gcp-professional-cloud-architect"],
+    "lastUpdated": "2025-11-20"
+  },
+  {
+    "id": "gcp-professional-cloud-architect",
+    "providerId": "gcp",
+    "name": "Google Cloud Professional Cloud Architect",
+    "shortName": "Professional Cloud Architect",
+    "slug": "professional-cloud-architect",
+    "level": "Professional",
+    "description": "Validates advanced ability to design, develop, and manage robust, secure, scalable, and dynamic solutions to drive business objectives using Google Cloud technologies. Demonstrates expertise in cloud architecture design and implementation.",
+    "badges": [
+      "https://cloud.google.com/static/images/certification/badges/professional-cloud-architect.png"
+    ],
+    "exam": {
+      "code": "Professional-Cloud-Architect",
+      "numberOfQuestions": 60,
+      "questionTypes": ["Multiple choice", "Multiple select"],
+      "duration": 120,
+      "passingScore": 70,
+      "maxScore": 100,
+      "cost": 200,
+      "currency": "USD",
+      "deliveryMethod": "Kryterion",
+      "languages": ["English", "Japanese", "Spanish", "Portuguese", "French", "German", "Indonesian", "Korean"],
+      "retakePolicy": "14 days after first attempt, 60 days after second attempt, 365 days after third attempt",
+      "validityPeriod": "2 years"
+    },
+    "prerequisites": [
+      "3+ years of industry experience including 1+ years designing and managing GCP solutions",
+      "Understanding of cloud architecture and Google Cloud Platform",
+      "Experience with compute, networking, storage, and database services on GCP",
+      "Familiarity with infrastructure as code, CI/CD pipelines, and DevOps practices"
+    ],
+    "recommendedTraining": [
+      {
+        "name": "Professional Cloud Architect Learning Path",
+        "provider": "Google Cloud Skills Boost",
+        "type": "Self-paced",
+        "url": "https://www.cloudskillsboost.google/paths/12",
+        "duration": "60 hours",
+        "free": false
+      },
+      {
+        "name": "Preparing for Google Cloud Certification: Cloud Architect",
+        "provider": "Coursera",
+        "type": "Video course",
+        "url": "https://www.coursera.org/professional-certificates/gcp-cloud-architect",
+        "duration": "56 hours",
+        "free": false
+      },
+      {
+        "name": "Cloud Architecture Design and Process",
+        "provider": "Google Cloud Skills Boost",
+        "type": "Hands-on lab",
+        "url": "https://www.cloudskillsboost.google/course_templates/640",
+        "duration": "8 hours",
+        "free": false
+      },
+      {
+        "name": "Professional Cloud Architect Practice Exam",
+        "provider": "Google Cloud",
+        "type": "Practice exam",
+        "url": "https://cloud.google.com/learn/certification/cloud-architect",
+        "duration": "2 hours",
+        "free": true
+      }
+    ],
+    "examDomains": [
+      { "name": "Designing and Planning a Cloud Solution Architecture", "percentage": 25 },
+      { "name": "Managing and Provisioning Cloud Solution Infrastructure", "percentage": 20 },
+      { "name": "Designing for Security and Compliance", "percentage": 20 },
+      { "name": "Analyzing and Optimizing Technical and Business Processes", "percentage": 15 },
+      { "name": "Managing Implementation and Ensuring Solution Reliability", "percentage": 20 }
+    ],
+    "jobRoles": [
+      { "title": "Cloud Architect", "averageSalary": "$150,000 - $210,000", "demandLevel": "High" },
+      { "title": "Solutions Architect", "averageSalary": "$140,000 - $200,000", "demandLevel": "High" },
+      { "title": "Cloud Infrastructure Lead", "averageSalary": "$145,000 - $195,000", "demandLevel": "Medium" },
+      { "title": "Principal Cloud Engineer", "averageSalary": "$160,000 - $225,000", "demandLevel": "High" }
+    ],
+    "relatedCertifications": ["gcp-associate-cloud-engineer", "gcp-cloud-digital-leader"],
+    "lastUpdated": "2025-10-30"
+  }
+]

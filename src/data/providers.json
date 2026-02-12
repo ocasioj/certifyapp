@@ -1,0 +1,92 @@
+[
+  {
+    "id": "aws",
+    "name": "Amazon Web Services (AWS)",
+    "shortName": "AWS",
+    "description": "Cloud computing platform offering over 200 services from data centers globally.",
+    "website": "https://aws.amazon.com/certification/",
+    "color": "#FF9900",
+    "certificationCount": 3,
+    "categories": ["Cloud", "DevOps", "Security"]
+  },
+  {
+    "id": "azure",
+    "name": "Microsoft Azure",
+    "shortName": "Azure",
+    "description": "Microsoft's cloud platform for building, deploying, and managing applications and services.",
+    "website": "https://learn.microsoft.com/en-us/certifications/",
+    "color": "#0078D4",
+    "certificationCount": 3,
+    "categories": ["Cloud", "DevOps", "AI"]
+  },
+  {
+    "id": "gcp",
+    "name": "Google Cloud Platform",
+    "shortName": "GCP",
+    "description": "Suite of cloud computing services that runs on the same infrastructure that Google uses.",
+    "website": "https://cloud.google.com/learn/certification",
+    "color": "#4285F4",
+    "certificationCount": 3,
+    "categories": ["Cloud", "Data", "ML"]
+  },
+  {
+    "id": "comptia",
+    "name": "CompTIA",
+    "shortName": "CompTIA",
+    "description": "Vendor-neutral IT certifications covering foundational to advanced technology skills.",
+    "website": "https://www.comptia.org/certifications",
+    "color": "#C8202F",
+    "certificationCount": 3,
+    "categories": ["IT Fundamentals", "Networking", "Security"]
+  },
+  {
+    "id": "cisco",
+    "name": "Cisco Systems",
+    "shortName": "Cisco",
+    "description": "Industry-leading networking certifications for routing, switching, and security professionals.",
+    "website": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/index.html",
+    "color": "#1BA0D7",
+    "certificationCount": 3,
+    "categories": ["Networking", "Security", "Enterprise"]
+  },
+  {
+    "id": "kubernetes",
+    "name": "Cloud Native Computing Foundation (CNCF)",
+    "shortName": "Kubernetes",
+    "description": "Vendor-neutral certifications for Kubernetes container orchestration and cloud native technologies.",
+    "website": "https://www.cncf.io/training/certification/",
+    "color": "#326CE5",
+    "certificationCount": 2,
+    "categories": ["Containers", "Cloud Native", "DevOps"]
+  },
+  {
+    "id": "vmware",
+    "name": "VMware by Broadcom",
+    "shortName": "VMware",
+    "description": "Virtualization and cloud infrastructure certifications for data center professionals.",
+    "website": "https://www.broadcom.com/support/education/vmware/certification",
+    "color": "#717DB4",
+    "certificationCount": 3,
+    "categories": ["Virtualization", "Data Center", "Networking"]
+  },
+  {
+    "id": "redhat",
+    "name": "Red Hat",
+    "shortName": "Red Hat",
+    "description": "Performance-based Linux and open source technology certifications from the enterprise Linux leader.",
+    "website": "https://www.redhat.com/en/services/certifications",
+    "color": "#EE0000",
+    "certificationCount": 3,
+    "categories": ["Linux", "OpenShift", "Automation"]
+  },
+  {
+    "id": "ai-ml",
+    "name": "AI & Machine Learning",
+    "shortName": "AI/ML",
+    "description": "Specialized AI and machine learning certifications from major cloud providers for data scientists and ML engineers.",
+    "website": "https://aws.amazon.com/certification/",
+    "color": "#8B5CF6",
+    "certificationCount": 3,
+    "categories": ["AI", "Machine Learning", "Data Science"]
+  }
+]
